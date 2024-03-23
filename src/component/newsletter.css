@@ -1,0 +1,6 @@
+.newsletter {
+  /* background-image: url("../img/bg-hero.png"); */
+  background: url("../img/bg-hero.png");
+  background-size: contain;
+  background-color: #1363c6 !important;
+}

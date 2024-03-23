@@ -1,0 +1,50 @@
+.sticky-top {
+  top: -150px;
+  transition: 0.5s;
+}
+.top-0 {
+  top: 0px !important;
+}
+.top-150 {
+  top: -150px !important;
+}
+.navbar {
+  background-color: transparent;
+  padding: 11px 0 !important;
+  height: 75px !important;
+}
+.navbar .navbar-nav .nav-link {
+  margin-right: 35px;
+  padding: 0;
+  color: rgba(255, 255, 255, 0.7);
+  outline: none;
+}
+/* .nav_bg {
+  background-color: #0d6efd;
+  height: 75px;
+} */
+.nav-link {
+  color: aliceblue;
+}
+.nav-link.active {
+  color: white !important;
+  font-weight: 500 !important;
+}
+a:hover {
+  color: white !important;
+  font-weight: 500 !important;
+}
+.navbar .nav-item:hover .dropdown-menu {
+  display: block;
+  top: 100%;
+  visibility: visible;
+  transition: 0.5s;
+  opacity: 1;
+}
+.navbar .nav-item:hover .dropdown-menu a:hover {
+  top: 100%;
+  visibility: visible;
+  transition: 0.5s;
+  opacity: 1;
+  background: #1363c6;
+}

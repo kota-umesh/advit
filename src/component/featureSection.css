@@ -1,0 +1,7 @@
+.feature {
+  background: url(../img/bg-hero.png) center center no-repeat;
+  background-size: cover;
+}
+.cardFeature {
+  background: #f7f7f7;
+}

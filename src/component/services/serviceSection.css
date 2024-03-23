@@ -1,0 +1,70 @@
+.service-item {
+  position: relative;
+  padding: 45px 30px;
+  background: #ffffff;
+  transition: 0.5s;
+}
+.service-item:hover {
+  background: #3b71ca;
+}
+.service-item .service-icon {
+  margin: 0 auto 20px auto;
+  width: 90px;
+  height: 90px;
+  color: #3b71ca;
+  background: #f4f7fe;
+  transition: 0.5s;
+}
+.service-item:hover .service-icon {
+  background: #ffffff;
+}
+
+.service-item h5,
+.service-item p {
+  transition: 0.5s;
+}
+
+.service-item:hover h5,
+.service-item:hover p {
+  color: #ffffff;
+}
+
+.service-item a.btn {
+  position: relative;
+  display: flex;
+  color: #1363c6 !important;
+  transition: 0.5s;
+  z-index: 1;
+}
+
+.service-item:hover a.btn {
+  color: #3b71ca;
+}
+
+.service-item a.btn::before {
+  position: absolute;
+  content: "";
+  width: 35px;
+  height: 35px;
+  top: 0;
+  left: 0;
+  border-radius: 35px;
+  background: #f4f7fe;
+  transition: 0.5s;
+  z-index: -1;
+}
+
+.service-item:hover a.btn::before {
+  width: 100%;
+  background: #f4f7fe;
+}
+.btn-square,
+.btn-sm-square,
+.btn-lg-square {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: normal;
+  border-radius: 50px;
+}
