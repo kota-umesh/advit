@@ -19,8 +19,9 @@ const ProjectCard = (props) => {
           {/* <!--<a class="case-overlay text-decoration-none" href="https://grobig.in/ecom/" target="_blank">--> */}
           <a
             className="case-overlay text-decoration-none"
-            href="/projects"
+            href={props.links}
             target="_blank"
+            rel="noreferrer"
           >
             <small>{props.pname}</small>
             <h5 class="lh-base text-white mb-3">

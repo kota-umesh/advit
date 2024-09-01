@@ -16,6 +16,7 @@ import MobileApp from "./component/services/MobileApp";
 import PrivacyPolicy from "./component/Privacy-Policy";
 import { FaArrowUp } from "react-icons/fa";
 import WOW from "wowjs";
+import ExecutiveRecruitment from "./component/services/ExecutiveRecruitment";
 
 const App = () => {
   // wow
@@ -56,6 +57,11 @@ const App = () => {
         <Route exact path="/" element={<Home />} />
         <Route exact path="/about" element={<About />} />
         <Route exact path="/services" element={<Services />} />
+        <Route
+          exact
+          path="/executiverecruitment"
+          element={<ExecutiveRecruitment />}
+        />
         <Route exact path="/webdevelopment" element={<WebDevlopment />} />
         <Route exact path="/mobileapp" element={<MobileApp />} />
         <Route exact path="/projects" element={<Projects />} />

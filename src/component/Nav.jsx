@@ -68,12 +68,12 @@ const Nav = () => {
                 <li className="nav-item dropdown">
                   <NavLink
                     className="nav-link dropdown-toggle"
-                    to="#"
+                    to="services"
                     role="button"
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
                   >
-                    Services
+                    IT Services
                   </NavLink>
                   <ul className="dropdown-menu">
                     <li>
@@ -90,6 +90,27 @@ const Nav = () => {
                     <li>
                       <NavLink className="dropdown-item" to="/mobileapp">
                         Mobile App Development
+                      </NavLink>
+                    </li>
+                  </ul>
+                </li>
+                <li className="nav-item dropdown">
+                  <NavLink
+                    className="nav-link dropdown-toggle"
+                    to="services"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Staffing Services
+                  </NavLink>
+                  <ul className="dropdown-menu">
+                    <li>
+                      <NavLink
+                        className="dropdown-item"
+                        to="/executiverecruitment"
+                      >
+                        Executive Recruitment
                       </NavLink>
                     </li>
                   </ul>
